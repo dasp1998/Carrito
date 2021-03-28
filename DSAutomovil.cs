@@ -36,7 +36,7 @@ namespace Carrito
         }
         public string Frenar()
         {
-            velocidadActual = frenar - 5;
+            velocidadActual = frenar - 10;
             if (vel_max < frenar)
             {
                 return "Disminuyendo Velocidad";
